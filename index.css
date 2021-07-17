@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    padding: 15px 0px;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: "";
+    background-color:rgb(234 234 234);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+}
+
+.crown{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style: none;
+    text-align: left;
+    width: 900px;
+}
+
+.li a{
+    text-decoration: none; 
+    color: black;
+}
+
+.li a:hover{
+    color: blue;
+    border-bottom: blue;
+    border-top: blue;
+}
+
+.li{
+    margin: 0px 30px;
+    color: black;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    font-weight: bolder;
+    padding: 4px 0px ;
+    cursor: pointer;
+}
+
+#container::before{
+    content: "";
+    height: 80%;
+    width: 100%; 
+    position: absolute;
+    background: url('img/virat-kohli-5835741_1280.png') no-repeat  ;
+    background-size: contain;
+    top: 0px;
+    left: 0px;
+    /* opacity: 0.4; */
+    z-index: -1;
+}
+
+.bg-write{ 
+       display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 18px 355px;
+    flex-direction: column;
+    height: 69vh;
+    margin: -33px 91px;
+    /* max-width: 702px; */
+    /* width: 497px; */
+    /* min-width: 143px
+}
+
+.bg-write p{
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Festive', cursive;
+}
+.bg-write h2{
+    font-family: 'Noto Serif', serif;
+    /* font-family: 'Festive', cursive; */
+}
+.second_sec{
+    background: rgb(241 239 239);
+    text-align: center;
+    margin: 127px 0px;
+    height: 600px;
+}
+
+.second_sec p {
+    padding: 50px 200px;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+#about_sec{
+    display: flex;
+}
+#about_sec img{
+    height: 550px;
+    margin-right: 159px;
+}
+
+
+.text{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 10px 150px;
+    
+}
+
+.text h1{
+    font-family: 'Didact Gothic', sans-serif;
+font-family: 'Monda', sans-serif;
+
+}
+
+.text p{
+    color: rgb(99, 98, 98);
+    padding: 15px 0px;
+    font-size: 19px;
+    font-family: 'Monda', sans-serif;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 110px;
+    background-color: rgb(206, 200, 200);
+}
+
+.footers p{
+    background-color: rgb(206, 200, 200);
+    text-align: center;
+    height: 30px;
+}
+
+.footers a{
+    margin: 0px 20px;
+    font-size: 40px;
+    color: indianred;
+}
+
+.footers a:hover{
+    color: rgb(247, 148, 148);
+}
+
+.box{
+    border: 2px solid black;
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: j;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.achivements{
+display: flex;
+border-radius: 20px;
+height: 524px;
+margin-bottom: 20px;
+background: #f2f2f2;
+}
+
+.ul_ach{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.single{
+    margin: 14px;
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+}
